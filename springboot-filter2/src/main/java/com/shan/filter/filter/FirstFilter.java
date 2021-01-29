@@ -1,15 +1,10 @@
 package com.shan.filter.filter;
 
 
-import org.springframework.core.annotation.Order;
-
 import javax.servlet.*;
-import javax.servlet.annotation.WebFilter;
 import javax.servlet.http.HttpServletRequest;
 import java.io.IOException;
 
-@WebFilter
-@Order(3)
 public class FirstFilter  implements Filter {
 
     @Override
